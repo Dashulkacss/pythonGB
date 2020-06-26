@@ -1,5 +1,6 @@
 index = 1
 
+
 productName = input("Название товара: ")
 cost = input("Цена: ")
 count = input("Количество: ")
