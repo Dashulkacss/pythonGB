@@ -19,6 +19,4 @@ except IOError:
 finalList = [dictFirm, {"average_profit": average_sum / average_count}]
 
 with open("text_7.json", "w", encoding="utf-8") as f:
-    # json.dump(finalList, write_f)
     json.dump(finalList, f, sort_keys=False, indent=4, ensure_ascii=False, separators=(',', ': '))
-    # print(json.dumps(finalList, sort_keys=False, indent=4, ensure_ascii=False,separators=(',',': ')))
