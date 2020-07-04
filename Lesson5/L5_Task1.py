@@ -1,9 +1,8 @@
 with open("forhwtask1.txt", "w", encoding="utf-8") as lolly:
-
-    print("Введите строки. Когда надоест - жми q")
+    print("Введите строки. Когда надоест - оставь строку пустой")
     while True:
         quitProg = input()
-        if quitProg == "q":
+        if quitProg == "":
             break
-        lolly.write(quitProg)
-        lolly.write("\n")
+        lolly.write(quitProg + '\n')
+    # lolly.write("\n")

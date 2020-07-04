@@ -11,3 +11,7 @@ try:
         print(f"Cредняя величина дохода сотрудников = {sumSalary/len(associates)}")
 except IOError:
     print("Error!")
+
+    """Полезные идеи после домашки"""
+
+# line = lolly.read().split("\n")
